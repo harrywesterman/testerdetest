@@ -4,13 +4,7 @@ var http = require("http");
 // create a server
 http.createServer(function(req, res) {
     // on every request, we'll output 'Hello world'
-<<<<<<< ours
-    res.end("Hello world from Cloud9 from Harry! Aangepast.");
-||||||| base
-    res.end("Hello world from Cloud9 from Harry!");
-=======
-    res.end("Hello world from Harry!");
->>>>>>> theirs
+    res.end("Hello world from Cloud9 from Harry! Aangepast...");
 }).listen(process.env.PORT, process.env.IP);
 
 // Note: when spawning a server on Cloud9 IDE, 
