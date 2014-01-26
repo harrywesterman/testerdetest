@@ -4,7 +4,7 @@ var http = require("http");
 // create a server
 http.createServer(function(req, res) {
     // on every request, we'll output 'Hello world'
-    res.end("Hello world from Harry!");
+    res.end("Hello world from Cloud9 from Harry! Aangepast...");
 }).listen(3000);
 
 console.log("Hij loopt op poort 3000");
@@ -13,3 +13,4 @@ console.log("Hij loopt op poort 3000");
 
 // Click the 'Run' button at the top to start your server,
 // then click the URL that is emitted to the Output tab of the console
+console.log("Leuk!");
